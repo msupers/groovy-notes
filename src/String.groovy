@@ -1,13 +1,32 @@
-def   s1 = 'xxxxx'
-println s1
+def S1 = "Welcome to Beijing!"
 
-def  s2 = '''\
-line 1
-line 2
-line 3
-'''
-println s2
+println S1.contains('Beijing')
 
+println S1.size()
 
-def s3 = 'i  \'m zhangmiao'
-println s3
+println S1.length()
+
+println S1.toString()
+
+println S1
+
+println S1.indexOf('Beijing')
+
+println S1.endsWith('jing!')
+
+println S1.minus('jing!')
+
+println S1.plus(' Yanqing!')
+
+println S1 + " Yanqing!"
+
+println S1.reverse()
+
+//Begin index , To index
+println S1.substring(3,8).trim()
+
+println S1.toUpperCase()
+
+println S1.toLowerCase()
+
+println S1.split(" ")
