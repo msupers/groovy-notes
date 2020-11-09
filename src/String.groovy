@@ -30,3 +30,13 @@ println S1.toUpperCase()
 println S1.toLowerCase()
 
 println S1.split(" ")
+
+// Long String use '\' zhuan yi  huan hang
+def S2 = """\
+Hi, I am Meow
+I Come From Beijing
+I like eat Apple!
+"""
+
+println S2
+
