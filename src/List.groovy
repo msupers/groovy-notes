@@ -30,7 +30,14 @@ println l4.remove(6)
 
 println l4
 
+// List contains number string and other type is ok
 
+def L5 = [1,"hello",'ddd']
+assert L5[1] == "hello"
+
+for (l in L5){
+    println l
+}
 
 
 
